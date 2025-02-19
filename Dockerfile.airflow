@@ -1,0 +1,12 @@
+FROM apache/airflow:2.6.0
+
+USER root
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY scripts/airflow_init.sh /airflow_init.sh
+RUN chmod +x /airflow_init.sh
+
+USER airflow
+ENTRYPOINT ["/bin/bash", "-c", "/airflow_init.sh"]
