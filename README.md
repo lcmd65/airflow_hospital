@@ -10,3 +10,5 @@ Prophet is an open-source forecasting tool developed by Facebook (now Meta) desi
 ## data pipeline & MlOps
 
 <img width="534" alt="Screenshot 2025-02-19 at 18 43 36" src="https://github.com/user-attachments/assets/3a7ead10-d08a-4e5e-9ba6-3084cbb8e3a2" />
+
+<img width="1560" alt="Screenshot 2025-02-19 at 19 01 47" src="https://github.com/user-attachments/assets/181b256b-f411-413b-a820-52dbeb69b603" />
